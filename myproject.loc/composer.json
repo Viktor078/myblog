@@ -1,0 +1,19 @@
+{
+  "name": "vikto/myproject.loc",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Viktor Abdulov",
+      "email": "viktor-ava97@mail.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MyProject\\": "src/MyProject"
+    }
+  },
+  "require": {
+    "erusev/parsedown": "^1.7"
+  }
+}
